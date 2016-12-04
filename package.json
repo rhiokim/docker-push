@@ -1,0 +1,23 @@
+{
+  "name": "docker-push",
+  "version": "1.0.4",
+  "description": "Docker image push from local to any resgiry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "build",
+    "shell"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rhiokim/docker-build.git"
+  },
+  "author": "Rhio Kim <rhio.kim@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "spawn-sync": "^1.0.15"
+  }
+}
